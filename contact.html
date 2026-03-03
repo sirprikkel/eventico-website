@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aanmelden / Contact – Eventico</title>
+  <meta name="description" content="Meld je aan bij Eventico en bouw mee aan de mooiste evenementen van Nederland.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; background: #F0F9FF; color: #0C4A6E; }
+    h1,h2,h3,.font-heading { font-family: 'Righteous', sans-serif; }
+    .nav-link { color: #0C4A6E; transition: color 150ms; font-weight: 500; }
+    .nav-link:hover { color: #0369A1; }
+    .btn-cta { background: #22C55E; color: #fff; font-weight: 700; padding: 0.875rem 2rem; border-radius: 2px; transition: background 150ms; display: inline-block; cursor: pointer; width: 100%; text-align: center; }
+    .btn-cta:hover { background: #16A34A; }
+    input, textarea, select { border: 2px solid #BAE6FD; border-radius: 2px; padding: 0.75rem; width: 100%; background: #fff; color: #0C4A6E; font-family: 'Poppins', sans-serif; transition: border-color 150ms; outline: none; }
+    input:focus, textarea:focus, select:focus { border-color: #0369A1; }
+    label { font-weight: 600; margin-bottom: 0.25rem; display: block; color: #0C4A6E; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+  </style>
+</head>
+<body>
+<nav class="bg-white border-b-2 border-gray-100 sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="index.html"><img src="images/logo.png" alt="Eventico" class="h-10 w-auto"></a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="diensten.html" class="nav-link">Diensten</a>
+        <a href="contact.html" class="nav-link" style="color:#0369A1; border-bottom:2px solid #0369A1;">Contact</a>
+        <a href="contact.html" class="btn-cta text-sm py-2 px-5" style="width:auto;">Aanmelden</a>
+      </div>
+      <button id="hamburger" class="md:hidden cursor-pointer p-2" aria-label="Menu openen">
+        <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="md:hidden bg-white border-t border-gray-100">
+    <div class="flex flex-col px-4 py-4 gap-4">
+      <a href="index.html" class="nav-link py-2">Home</a>
+      <a href="diensten.html" class="nav-link py-2">Diensten</a>
+      <a href="contact.html" class="nav-link py-2">Contact</a>
+      <a href="contact.html" class="btn-cta">Aanmelden</a>
+    </div>
+  </div>
+</nav>
+
+<section class="py-16" style="background:#0369A1;">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <h1 class="font-heading text-5xl text-white mb-4">Aanmelden</h1>
+    <p class="text-blue-100 text-xl">Ontvang updates over nieuwe mogelijkheden en evenementen direct in je inbox.</p>
+  </div>
+</section>
+
+<section class="py-16 px-4" style="background:#F0F9FF;">
+  <div class="max-w-4xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-12">
+      <div>
+        <h2 class="font-heading text-3xl mb-6" style="color:#0369A1;">Sluit je aan</h2>
+        <p class="text-lg mb-6" style="color:#0C4A6E;">Ben je op zoek naar uitdagende en flexibele opdrachten die perfect aansluiten bij jouw talenten en interesses? Sluit je dan nu aan bij ons team!</p>
+        <div class="space-y-4">
+          <div class="flex gap-3 items-start">
+            <div class="w-8 h-8 flex-shrink-0 flex items-center justify-center" style="background:#22C55E;">
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p style="color:#0C4A6E;">Flexibel werken — bepaal je eigen werktijden!</p>
+          </div>
+          <div class="flex gap-3 items-start">
+            <div class="w-8 h-8 flex-shrink-0 flex items-center justify-center" style="background:#22C55E;">
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p style="color:#0C4A6E;">Leuke collega's — werk altijd met een gezellig en sterk team!</p>
+          </div>
+          <div class="flex gap-3 items-start">
+            <div class="w-8 h-8 flex-shrink-0 flex items-center justify-center" style="background:#22C55E;">
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p style="color:#0C4A6E;">Doorgroeimogelijkheden — groei door in ons bedrijf met jouw unieke kwaliteiten.</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white p-8" style="border-left:4px solid #0369A1;">
+        <h2 class="font-heading text-2xl mb-6" style="color:#0369A1;">Stuur een bericht</h2>
+        <form action="mailto:info@eventico.nl" method="post" enctype="text/plain" class="space-y-4">
+          <div>
+            <label for="naam">Naam</label>
+            <input type="text" id="naam" name="naam" placeholder="Jouw naam" required>
+          </div>
+          <div>
+            <label for="email">E-mailadres</label>
+            <input type="email" id="email" name="email" placeholder="jouw@email.nl" required>
+          </div>
+          <div>
+            <label for="telefoon">Telefoonnummer</label>
+            <input type="tel" id="telefoon" name="telefoon" placeholder="06-12345678">
+          </div>
+          <div>
+            <label for="opdracht">Welke opdracht interesse je?</label>
+            <select id="opdracht" name="opdracht">
+              <option value="">Kies een opdracht...</option>
+              <option value="site-crew">Site Crew</option>
+              <option value="av">Audiovisuele Ondersteuning</option>
+              <option value="hekken">Hekken Plaatsen</option>
+              <option value="podium">Podiumbouw</option>
+              <option value="vloer">Vloerenlegger</option>
+              <option value="stand">Standbouw / Tentenbouw</option>
+              <option value="overig">Overig / Weet ik nog niet</option>
+            </select>
+          </div>
+          <div>
+            <label for="bericht">Bericht (optioneel)</label>
+            <textarea id="bericht" name="bericht" rows="4" placeholder="Vertel iets over jezelf..."></textarea>
+          </div>
+          <button type="submit" class="btn-cta">Aanmelden →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-8 bg-white border-t-2 border-gray-100">
+  <div class="max-w-6xl mx-auto px-4 text-center text-sm" style="color:#64748B;">
+    © 2026 Eventico. Gebouwd door <a href="https://www.code-lieshout.nl" class="hover:text-blue-600 cursor-pointer">Code Lieshout</a>.
+  </div>
+</footer>
+
+<script>
+  document.getElementById('hamburger').addEventListener('click', function() {
+    document.getElementById('mobile-menu').classList.toggle('open');
+  });
+</script>
+</body>
+</html>
